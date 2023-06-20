@@ -15,15 +15,15 @@ const Navbar = () => {
         <div onClick={handleNav} className="block md:hidden">
             {!nav ? <AiOutlineClose size={20} color='#4bb3f8'/> : <AiOutlineMenu size={20} color='#4bb3f8'/>}
         </div>
-          <ul className="hidden md:flex text-[#4bb3f8] p-8">
-            <Link to='/'><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">HOME</li></Link>
-            <Link to='/about'><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">OUR MISSION</li></Link>
-            <Link to='/contact'><li className="p-4 hover:text-[#02daf7] hover:scale-105 duration-300">CONTACT</li></Link>
+          <ul className="hidden md:flex text-purple-100 p-8">
+            <Link to='/'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">HOME</li></Link>
+            <Link to='/about'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">OUR MISSION</li></Link>
+            <Link to='/contact'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">CONTACT</li></Link>
           </ul>
       <div className="content-between">  
-        <h1 className="w-full text-3xl font-bold text-[#4bb3f8] p-8">PETS</h1>
-        <div className={!nav ? "pt-4 fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-[#4bb3f8] ease-in-out duration-200" : "fixed left-[-100%]"}>
-          <ul className="uppercase p-4">
+        <h1 className="w-full text-3xl font-bold text-purple-500 p-8">PETS</h1>
+        <div className={!nav ? "fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-purple-100 ease-in-out duration-200" : "fixed left-[-100%]"}>
+          <ul className="uppercase p-4 text-purple-500 bg-gradient-to-b from-purple-200">
             <button onClick={handleNav}>Close</button>
             <Link to='/'><li onClick={handleNav} className="p-4 border-b border-gray-600">HOME</li></Link>
             <Link to='/about'><li onClick={handleNav} className="p-4 border-b border-gray-600">OUR MISSION</li></Link>
