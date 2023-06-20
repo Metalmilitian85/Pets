@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .nav {
   background: big-gradient-to-r from-pink-500 to-white;
+}
+
+h2,
+li {
+  font-family: "Petit Formal Script", cursive;
 }
