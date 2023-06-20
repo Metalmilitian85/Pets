@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 max-w-100v mx-auto px-4 text-blue font-bold bg-gradient-to-r from-purple-500">
         <div onClick={handleNav} className="block md:hidden">
-            {!nav ? <AiOutlineClose size={20} color='#4bb3f8'/> : <AiOutlineMenu size={20} color='#4bb3f8'/>}
+            {!nav ? <AiOutlineClose size={20} color='rgb(168 85 247)'/> : <AiOutlineMenu size={20} color='#e9d5ff'/>}
         </div>
           <ul className="hidden md:flex text-purple-100 p-8">
             <Link to='/'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">HOME</li></Link>

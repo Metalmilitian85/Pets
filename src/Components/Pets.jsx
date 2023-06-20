@@ -32,6 +32,14 @@ export default function Pets(props) {
             <Info age="7" />
             <Info bio="'What a bitch'" />
         </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg m-8 flex relative justify-center opacity-60">
+            <Info img="/dog.jpg" />
+            <p className="text-red-500 absolute mt-32 text-2xl">COMING SOON!</p>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg m-8 flex relative justify-center opacity-60">
+            <Info img="/cat.jpg" />
+            <p className="text-red-500 absolute mt-40 text-2xl">COMING SOON!</p>
+        </div>
       </div>
     )
 }
