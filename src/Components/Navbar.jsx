@@ -17,7 +17,8 @@ const Navbar = () => {
         </div>
           <ul className="hidden md:flex text-purple-100 p-8">
             <Link to='/'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Home</li></Link>
-            <Link to='/about'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Our Mission</li></Link>
+            <Link to='/Pets'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Pets</li></Link>
+            <Link to='/Mission'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Our Mission</li></Link>
             <Link to='/contact'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Contact</li></Link>
           </ul>
       <div className="content-between">  
@@ -26,7 +27,8 @@ const Navbar = () => {
           <ul className="p-4 text-purple-500 bg-gradient-to-b from-purple-200">
             <button onClick={handleNav}>Close</button>
             <Link to='/'><li onClick={handleNav} className="p-4 border-b border-gray-600">Home</li></Link>
-            <Link to='/about'><li onClick={handleNav} className="p-4 border-b border-gray-600">Our Mission</li></Link>
+            <Link to='/Pets'><li onClick={handleNav} className="p-4 border-b border-gray-600">Pets</li></Link>
+            <Link to='/Mission'><li onClick={handleNav} className="p-4 border-b border-gray-600">Our Mission</li></Link>
             <Link to='/contact'><li onClick={handleNav} className="p-4 border-b border-gray-600">Contact</li></Link>
           </ul>
         </div>

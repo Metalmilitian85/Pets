@@ -2,6 +2,9 @@ import React from 'react'
 import Pets from './Components/Pets'
 import Navbar from './Components/Navbar'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Mission from './Components/Mission'
+import Contact from './Components/Contact'
+import Home from './Components/Home'
 
 export default function App() {
 
@@ -10,13 +13,11 @@ export default function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/"/>
-        <Route path="/about"/>
-        <Route path="/projects"/>
-        <Route path="/skills"/>
-        <Route path="/contact" />
+        <Route path="/" element={<Home />} />
+        <Route path="/Pets" element={<Pets />} />
+        <Route path="/Mission" element={<Mission />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Pets />
     </BrowserRouter>
   </div>
   )
