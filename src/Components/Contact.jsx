@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
     return (
         <div className="text-center">
-            <h1 className="text-3xl font-bold mb-3">Contact Us</h1>
+            <h1 className="text-3xl font-bold mb-3 mt-8">Contact Us</h1>
             <h3 className="text-xl font-semibold">Office Hours</h3>
                 <p>Monday - Friday 8am - 5:30pm</p>
                 <p>Saturday 8am - 12:30pm</p>

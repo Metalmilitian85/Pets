@@ -13,9 +13,9 @@ export default function Pets(props) {
 
     return (
     <div>
-        <h1 className="text-3xl font-bold mb-3 mt-3 text-center">Adoptions Page</h1>   
+        <h1 className="text-3xl font-bold mb-3 mt-8 text-center">Adoptions Page</h1>   
             <h3 className="m-4 text-center">We would love for you for find your furever buddy! Please reach out to us, or swing by, with any and all interest that you may have!</h3> 
-        <div className="mx-auto relative flex flex-col items-center w-[340px] h-[200px] rounded-lg">
+        <div className="mx-auto -z-10 relative flex flex-col items-center w-[340px] h-[200px] rounded-lg">
             <button onClick={handleOpen} className="bg-purple-400 p-2 w-[80%] flex items-center justify-between font-bold text-lg rounded-lg tracking-wider border-4 border-transparent active:border-white duration-300 active:text-white"
             >
                 Filter Pets
