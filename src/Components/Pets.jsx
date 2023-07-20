@@ -48,9 +48,10 @@ export default function Pets() {
                     return (
                       <div className="flex flex-wrap m-auto">  
                         <div className="max-w-sm rounded overflow-hidden shadow-lg m-8">
-                            <img src={ pet.pic } className="" />
-                            <h3>{ pet.name }</h3>
-                            <p>{ pet.bio }</p>
+                            <img src={ pet.pic } />
+                            <h3 className="font-bold text-center text-xl">{ pet.name }</h3>
+                            <p className="font-bold text-center">{ pet.age }</p>
+                            <p className="italic text-center">{ pet.bio }</p>
                         </div>
                       </div>
                     )

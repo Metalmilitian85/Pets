@@ -3,33 +3,33 @@
         "id": 1,
         "type": "cat",
         "name": "Skarin",
-        "age": 12,
-        "bio": "'Tubby kitty at heart'",
-        "pic": "/Skarin.jpg"
+        "age": "Age 12",
+        "bio": "'Tubby kitty at heart! A big snuggler that enjoys his nap and lap time! Tiger is his brother.'",
+        "pic": "/Skarinbio.jpg"
     },
     {
         "id": 2,
         "type": "cat",
         "name": "Tiger",
-        "age": 12,
-        "bio": "'Killer kittay'",
-        "pic": "/Tiger.jpg"
+        "age": "Age 12",
+        "bio": "'A very vocal kitty! Always on the lookout for snacks and scratches! Skarin is his brother.'",
+        "pic": "/Tigerbio.jpg"
     },
     {
         "id": 3,
         "type": "dog",
         "name": "Tripp",
-        "age": 8,
-        "bio": "'Pee attack'",
-        "pic": "/Tripp.jpg"
+        "age": "Age 8",
+        "bio": "'Tripp is a Long-Haired Dachshund. He can be very timid at first, but is super jumpy when given attention!'",
+        "pic": "/Trippbio.jpg"
     },
     {
         "id": 4,
         "type": "dog",
         "name": "Harley",
-        "age": 7,
-        "bio": "'What a bitch'",
-        "pic": "/Harley.jpg"
+        "age": "Age 7",
+        "bio": "'Harley is a Shepherd Terrier mix. She enjoys her alone time, but food time is her favorite time!'",
+        "pic": "/Harleybio.jpg"
     },
     {
         "id": 5,
