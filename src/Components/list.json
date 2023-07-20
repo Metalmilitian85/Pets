@@ -1,11 +1,44 @@
 [
     {
-        "type": "All"
+        "id": 1,
+        "type": "cat",
+        "name": "Skarin",
+        "age": 12,
+        "bio": "'Tubby kitty at heart'",
+        "pic": "/Skarin.jpg"
     },
     {
-        "type": "Dogs"
+        "id": 2,
+        "type": "cat",
+        "name": "Tiger",
+        "age": 12,
+        "bio": "'Killer kittay'",
+        "pic": "/Tiger.jpg"
     },
     {
-        "type": "Cats"
+        "id": 3,
+        "type": "dog",
+        "name": "Tripp",
+        "age": 8,
+        "bio": "'Pee attack'",
+        "pic": "/Tripp.jpg"
+    },
+    {
+        "id": 4,
+        "type": "dog",
+        "name": "Harley",
+        "age": 7,
+        "bio": "'What a bitch'",
+        "pic": "/Harley.jpg"
+    },
+    {
+        "id": 5,
+        "type": "soon",
+        "pic": "/soondog.jpg"
+    },
+    {
+        "id": 6,
+        "type": "soon",
+        "pic": "/sooncat.jpg"
     }
 ]

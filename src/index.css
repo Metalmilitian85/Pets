@@ -11,3 +11,12 @@ h2,
 li {
   font-family: "Petit Formal Script", cursive;
 }
+
+.filterbuttons {
+  width: 90px;
+  border: ;
+}
+
+.selected {
+  background-color: rgb(168 85 247);
+}
