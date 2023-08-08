@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-image: url("./purplebg.jpg");
+}
+
 .nav {
   background: big-gradient-to-r from-pink-500 to-white;
 }
