@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import list from './list.json'
-import { AiOutlineCaretUp, AiOutlineCaretDown } from 'react-icons/ai'
 import { useSearchParams } from 'react-router-dom'
 
 export default function Pets() {
@@ -19,7 +18,7 @@ export default function Pets() {
 
     return (
     <div>
-        <h1 className="text-3xl font-bold mb-3 mt-8 text-center">Adoptions Page</h1>   
+        <h2 className="text-3xl font-bold mb-3 mt-8 text-center text-purple-700">Adoptions Page</h2>   
             <h3 className="m-4 text-center">We would love for you for find your furever buddy! Please reach out to us, or swing by, with any and all interest that you may have!</h3>
                 <div className="ml-10 p-2">
                     <button 

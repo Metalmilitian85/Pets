@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": "/doghug.jpg"
+    },
+    {
+        "id": 2,
+        "img": "/doghug2.jpg"
+    },
+    {
+        "id": 3,
+        "img": "/cathug.webp"
+    },
+    {
+        "id": 4,
+        "img": "/dogfamily.jpg"
+    },
+    {
+        "id": 5,
+        "img": "/catfamily.jpg"
+    },
+    {
+        "id": 6,
+        "img": "/dogfamily2.jpg"
+    },
+    {
+        "id": 7,
+        "img": "/catfamily2.jpg"
+    },
+    {
+        "id": 8,
+        "img": "/dogfamily3.jpg"
+    },
+    {
+        "id": 9,
+        "img": "/catanddog.jpg"
+    }
+]
