@@ -9,7 +9,7 @@ export default function Home() {
                     All of our adoption animals get 1 on 1 or group time together with staff and each other every day to support a loving environment! 
                     Anything is "paw-sible" when your heart melts after allowing a new member into your family!
                 </p>
-                <img src="./catdog.jpg" className="flex m-auto w-[450px]" />
+                <img src="./catdog.jpg" className="flex m-auto w-[450px] rounded-lg md:max-w-[80%]" />
         </div>
     )
 }
