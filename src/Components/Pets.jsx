@@ -19,7 +19,7 @@ export default function Pets() {
     return (
     <div>
         <h2 className="text-3xl font-bold mb-3 mt-8 text-center text-purple-700">Adoptions Page</h2>   
-            <h3 className="m-4 text-center">We would love for you for find your furever buddy! Please reach out to us, or swing by, with any and all interest that you may have!</h3>
+            <h3 className="m-4 text-center lg:text-xl">We would love for you for find your furever buddy! Please reach out to us, or swing by, with any and all interest that you may have!</h3>
                 <div className="ml-10 p-2">
                     <button 
                         onClick={() => setSearchParams({type: "cat"})}
@@ -47,7 +47,7 @@ export default function Pets() {
                     return (
                       <div className="flex flex-wrap m-auto">  
                         <div className="max-w-sm rounded overflow-hidden shadow-lg m-8">
-                            <img src={ pet.pic } />
+                            <img className="w-[450px] h-[350px]" src={ pet.pic } />
                             <h3 className="font-bold text-center text-xl">{ pet.name }</h3>
                             <p className="font-bold text-center">{ pet.age }</p>
                             <p className="italic text-center">{ pet.bio }</p>
